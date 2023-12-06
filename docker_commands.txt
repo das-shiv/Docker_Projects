@@ -1,0 +1,23 @@
+> This file contains a list of regularly used docker commands.
+------------------------------------------------------------------------------------------------------
+> docker images = Lists all the docker images in local machine
+
+> docker run image_name:version  = Create a new container
+
+> docker ps = Lists all the running container
+
+> docker ps -a = Lists all the running as well as stopped containers
+
+> docker start container_name/id = Starts a stopped container
+
+> docker stop container_name/id = Stop a running container
+
+> docker restart container_name/id = Restart a container
+
+> docker rm container_name/id = Remove a stopped container
+
+> docker rmi image_name = Remove a docker image from local machine
+
+> docker inspect container_name/image_name = Inspect the details of a docker image/container
+
+
