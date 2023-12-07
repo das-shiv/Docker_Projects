@@ -10,7 +10,7 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
 sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg -y
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 
 # Add the repository to Apt sources:

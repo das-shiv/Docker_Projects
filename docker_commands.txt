@@ -2,6 +2,8 @@
 ------------------------------------------------------------------------------------------------------
 > docker images = Lists all the docker images in local machine
 
+> docker pull image_name  = Pull an image from dockerhub
+
 > docker run image_name:version  = Create a new container
 
 > docker ps = Lists all the running container
