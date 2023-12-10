@@ -18,3 +18,9 @@ Commands used:
 > docker ps -a
 > docker rm web
 > docker rmi nginx:alpine
+> docker rm -f nginx = remove a running container forcefully
+
+
+> cd /var/lib/docker/containers = Stores the running container data
+
+> docker exec httpd ls / = Run commands on a container

@@ -22,4 +22,16 @@
 
 > docker inspect container_name/image_name = Inspect the details of a docker image/container
 
+> docker rm -f container_name/id = Remove a running container without stopping it.
+
+
+> docker exec container_name/id "commands" = To run a command on a running container
+e.g. docker exec httpd ls /
+      docker exec httpd ip a
+
+
+> docker exec -it container_name/id "she" = To connect to the container.
+e.g. docker exec -it httpd /bin/sh
+
+> To find out the shell present run, docker exec httpd cat /etc/shells
 
