@@ -24,3 +24,4 @@ Commands used:
 > cd /var/lib/docker/containers = Stores the running container data
 
 > docker exec httpd ls / = Run commands on a container
+

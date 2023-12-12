@@ -35,3 +35,6 @@ e.g. docker exec -it httpd /bin/sh
 
 > To find out the shell present run, docker exec httpd cat /etc/shells
 
+> docker inspect image_name/id = Detailed information about the image
+
+
